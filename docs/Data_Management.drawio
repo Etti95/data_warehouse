@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="gWWIWy9YrVB01bA0gsSl">
+    <mxGraphModel dx="706" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="almEnW9Ra_tAB1kyELPH-1" value="Definition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-2" value="Objective" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-3" value="Object Type&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-4" value="Raw unprocessed data as is from sources" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-5" value="Traceability &amp;amp; Debugging" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-6" value="Tables&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Definition%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%2270%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Definition%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%2270%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-7" value="Full Load" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-8" value="&lt;div&gt;Load Method&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-9" value="&lt;div&gt;Data Transformation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-10" value="None (as-is)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-14" value="Bronze Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-15" value="Silver Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C7C7C7;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-17" value="Gold Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-20" value="Business-ready Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-21" value="Provide Data to be consumed for reporting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-23" value="Views" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-26" value="None" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-27" value="Data Integration&lt;div&gt;Data Aggregation&lt;/div&gt;&lt;div&gt;Business Logic &amp;amp; Rules&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-28" value="Data Modelling" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-29" value="None (as-is)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-30" value="Start Schema&lt;div&gt;Aggregated Objects&lt;/div&gt;&lt;div&gt;Flat Tables&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-31" value="Target Audience" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-33" value="Data Engineers" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-36" value="Clean &amp;amp; Standardized data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-39" value="Prepate Data for Analysis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-40" value="Tables" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-41" value="Full Load" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-42" value="Data Cleaning&lt;div&gt;Data Standardization&lt;/div&gt;&lt;div&gt;Data Normalization&lt;/div&gt;&lt;div&gt;Derived Columns&lt;/div&gt;&lt;div&gt;Data Enrichment&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-44" value="None (as-is)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-45" value="Data Engineers&lt;div&gt;Data Analysts&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="almEnW9Ra_tAB1kyELPH-46" value="&lt;div&gt;Data Analysts&lt;/div&gt;&lt;div&gt;Business Users&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
