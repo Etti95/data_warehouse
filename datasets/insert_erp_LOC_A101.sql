@@ -1,0 +1,18 @@
+INSERT INTO silver.erp_LOC_A101 (
+
+    CID,
+    CNTRY
+)
+
+SELECT 
+REPLACE(CID, '-','') CID,
+CASE 
+    WHEN UPPER(REPLACE(REPLACE(REPLACE(TRIM(CNTRY), CHAR(160), ''), CHAR(13), ''), CHAR(10), '')) = 'DE' THEN 'Germany'
+    WHEN UPPER(REPLACE(REPLACE(REPLACE(TRIM(CNTRY), CHAR(160), ''), CHAR(13), ''), CHAR(10), '')) IN ('US','USA') THEN 'United States'
+    WHEN CNTRY IS NULL OR LTRIM(RTRIM(CNTRY)) = ' ' THEN 'N/A'
+    ELSE TRIM(CNTRY)
+  END AS CNTRY  
+
+FROM bronze.erp_LOC_A101
+
+---WHERE REPLACE(CID, '-','') NOT IN (SELECT cst_key FROM silver.crm_cust_info)

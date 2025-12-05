@@ -1,0 +1,24 @@
+INSERT INTO silver.erp_CUST_AZ12 (
+    CID,
+    BDATE,
+    GEN
+)
+
+SELECT 
+
+    CASE WHEN cid LIKE 'NAS%' THEN SUBSTRING(cid, 4, LEN(CID))
+        ELSE CID
+        END CID,
+
+    CASE WHEN BDATE > GETDATE() THEN NULL
+    ELSE BDATE
+    END AS BDATE, 
+
+    CASE WHEN UPPER(REPLACE(REPLACE(REPLACE(TRIM(GEN), CHAR(160), ''), CHAR(13), ''), CHAR(10), '')) IN ('F','FEMALE') THEN 'Female'
+     WHEN UPPER(REPLACE(REPLACE(REPLACE(TRIM(GEN), CHAR(160), ''), CHAR(13), ''), CHAR(10), '')) IN ('M','MALE')   THEN 'Male'
+    ELSE 'N/A'
+  END AS GEN
+
+FROM bronze.erp_CUST_AZ12
+WHERE CID NOT IN (SELECT DISTINCT cst_key FROM silver.crm_cust_info)
+
